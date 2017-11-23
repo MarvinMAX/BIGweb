@@ -47,4 +47,5 @@ Explain:		Clearfix（简写cl）避免因子元素浮动而导致的父元素高
     background: url(../images/big-bg.gif) no-repeat;
     background-size:100% 100%;
 }
-.index_title{font-weight: bold;color:#fff;margin: 25px 0;}
+.index_title{color:#fff;margin: 25px 0;}
+.index_title h1{}
