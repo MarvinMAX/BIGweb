@@ -44,9 +44,10 @@ Explain:		Clearfix（简写cl）避免因子元素浮动而导致的父元素高
 .cl:after,.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}.cl,.clearfix{zoom:1}
 /*main*/
 .h-100{height: 100%;}
-.index_bg{background: url(../images/big-bg.gif) no-repeat;background-size:100% 100%;}
-.index_title{color:#fff;margin: 25px 0;}
+.index_bg{background: url(../images/big-bg2.gif) no-repeat;background-size:100% 100%;}
+.index_title{color:#fff;margin: 15px 0;}
 .index_title h1{}
+.index_title h1 small{font-size: 14px;display: block;color:#fff;}
 .bgcor-pin {background: rgba(246,136,113,1);}
 .bgcor-blue {background: rgba(0,167,232,1);}
 .bgcor-yellow {background: rgba(247,181,71,1);}
@@ -60,3 +61,16 @@ Explain:		Clearfix（简写cl）避免因子元素浮动而导致的父元素高
 #ts,#ts2,#ts3,#ts4,#ts5,#ts6{height: 31%;}
 #ts,#ts2,#ts4,#ts5{margin-bottom: 5%;}
 .ts-1{width: 100%;}
+#datetime{
+    display: block;
+    width: 280px;
+    font-size: 16px;
+    margin: 0 auto;
+    height: 28px;
+    line-height: 28px;
+    background: #040c44;
+    border: 2px solid #042356;
+    box-shadow: 0 0 5px #042356;
+    margin-top: 10px;
+    color: rgba(247,181,71,1);
+}
